@@ -10,6 +10,7 @@ window.onload = (event) =>{
 if(biicore.bgMusic){
 	var audioPlayer = document.createElement("AUDIO");
 	audioPlayer.style.display = "none";
+	audioPlayer.loop=true;
 
 	setTimeout(function(){
 		if (audioPlayer.canPlayType("audio/mpeg")) {
